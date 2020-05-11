@@ -166,6 +166,8 @@ function changePlayer(){
         kickButton.classList.add("P2:hover", "P2");
         punchButton.classList.remove("P1:hover", "P1");
         kickButton.classList.remove("P1:hover", "P1");
+        punchButton.disabled = true;
+        kickButton.disabled = true;
     } else {
         shotTracker = 1;
         shotTrackerField.innerHTML = "P1 take your shot";
@@ -175,6 +177,8 @@ function changePlayer(){
         kickButton.classList.remove("P2:hover", "P2");
         punchButton.classList.add("P1:hover", "P1");
         kickButton.classList.add("P1:hover", "P1");
+        punchButton.disabled = false;
+        kickButton.disabled = false;
     }
 };
 
