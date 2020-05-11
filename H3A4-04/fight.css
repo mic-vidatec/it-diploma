@@ -1,0 +1,82 @@
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    background: #232323;
+    color: white;
+    font-size: 3.0em;
+}
+
+h1 {
+    background: steelblue;
+}
+
+span {
+    background-color: steelblue;
+    border-radius: 10%;
+}
+
+.P1Colour {
+    background-color: red;
+    border-radius: 10%;
+}
+
+.P2Colour {
+    background-color: green;
+    border-radius: 10%;
+}
+
+.button {
+    background: #232323;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+.button:hover {
+    background: steelblue;
+    text-decoration: none;
+}
+
+.P2 {
+    background: #232323;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+.P2:hover {
+    background: green;
+    text-decoration: none;
+  }
+
+.P1 {
+    background: #232323;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+.P1:hover {
+    background: red;
+    text-decoration: none;
+  }
+
+.selected {
+    background: steelblue;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+  }
+

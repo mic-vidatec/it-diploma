@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Fiiiiight!</title>
+        <link rel="stylesheet" href="fight.css">
+        <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Fiiiiight!</h1>
+        <div class="container">
+            <div>
+                <span class="P1Colour"><i id="P1Icon" class="fas fa-smile"></i></span>
+                <span class="P2Colour"><i id="P2Icon" class="fas fa-smile"></i></span><br>
+                <span id="P1Health" class="P1Colour"></span>
+                <span id="P2Health" class="P2Colour"></span>
+            </div>
+            <div>
+                <button id="punch" class="button" disabled>Punch</button>
+                <button id="kick" class="button" disabled>Kick</button>
+                <button id="comp" class="button" disabled>Computer Turn</button>
+            </div>
+            <div>
+                <span id="result">Fiiiight!</span>
+            </div>
+            <div>
+                <span id="shotTracker" class="P1Colour">P1 take your shot</span>
+            </div>
+            <div>
+                <button id="reset" class="button">Reset</button>
+                <button id="inst" class="button">Instructions</button>
+            </div>
+            <div>
+                <button id="onePlayer" class="button">1 Player</button>
+                <button id="twoPlayer" class="button">2 Player</button>
+            </div>
+        </div>
+
+        <script src="fight.js"></script>
+    </body>
+</html>
